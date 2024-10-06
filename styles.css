@@ -1,0 +1,52 @@
+body{
+    background-color: lightslategray;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding: 45px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 6px 3px 3px 3px black;
+}
+
+label, input{
+    display: block;
+    padding: 10px;
+}
+
+
+select{
+    background-color: rgb(55, 69, 88);
+    color: white;
+}
+
+input ,textarea,select{
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 20px;
+}
+
+button{
+    background-color: rgb(96, 114, 139);
+    color: white;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    margin-top: 3%;
+    margin-left: 46%;
+    
+}
+
+button:hover{
+    box-shadow: 2px 2px 20px black;
+
+}
